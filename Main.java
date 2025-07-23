@@ -1,8 +1,4 @@
-/*
-
 1) Task Make up an algorithm
-
-******** MY ANSWER*****************************************************
 
 public class Main {
 
@@ -51,7 +47,7 @@ Given bracket sequence: [((())()(())]]
 Can this sequence be considered correct?
 If the answer is “no”, then what needs to be changed in it to make it correct?
 
-*********** MY ANSWER **************************************************
+
 No, this sequence is not correct. Since there is a message from the compiler:
 "Syntax error on token ')'", delete this token (Java error 1610612968).
 
@@ -65,7 +61,7 @@ b) Replace the first `(` with `[`, resulting in [[(())()(())]]
 3) Bonus points:
 + the ability to run the received program
 ++ interactive input of values for processing and output of processed data (via the console)
-*/
+
 
 
 import java.util.Scanner;
